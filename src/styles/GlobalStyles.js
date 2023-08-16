@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 
     :root{
         --text: #A18276;
