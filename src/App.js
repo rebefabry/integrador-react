@@ -6,6 +6,8 @@ import SectionProducts from "./components/SectionProducts/SectionProducts";
 import Categories from "./components/Categories/Categories";
 import Products from "./components/Products/Products";
 import Review from "./components/ReviewSection/Review";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       <Categories/>
       <Products/>
       <Review/>
+      <Contact/>
     </Layout>
+    <Footer/>
     </>
   );
 }
