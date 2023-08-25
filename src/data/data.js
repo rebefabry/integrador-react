@@ -5,7 +5,7 @@ export const products = [
 		texto:"Para el dia",
 		precio: 2500,
 		category: "cremas",
-		cardImg: "../assets/Products/crema-dia.jpg",
+		cardImg: require ("../assets/Products/crema-dia.jpg"),
 	},
 	{
 		id: 2,
@@ -13,7 +13,7 @@ export const products = [
 		texto:"Para la noche",
 		precio: 2500,
 		category: "cremas",
-		cardImg: "../assets/Products/crema-noche.jpg",
+		cardImg: require ("../assets/Products/crema-noche.jpg"),
 	},
 	{
 		id: 3,
@@ -21,7 +21,7 @@ export const products = [
 		texto:"Para pieles maduras",
 		precio: 2500,
 		category: "cremas",
-		cardImg: "../assets/Products/crema-piel-madura.jpg",
+		cardImg: require ("../assets/Products/crema-piel-madura.jpg"),
 	},
 	{
 		id: 4,
@@ -29,7 +29,7 @@ export const products = [
 		texto:"Para piel sensible",
 		precio: 890,
 		category: "exfoliantes",
-		cardImg: "../assets/Products/exfoliante-piel-seca.jpg",
+		cardImg: require ("../assets/Products/exfoliante-piel-seca.jpg"),
 	},
 	{
 		id: 5,
@@ -37,7 +37,7 @@ export const products = [
 		texto:"Para piel mixta",
 		precio: 890,
 		category: "exfoliantes",
-		cardImg: "../assets/Products/exfoliante-piel-grasa.jpg ",
+		cardImg: require ("../assets/Products/exfoliante-piel-grasa.jpg"),
 	},
 	{
 		id: 6,
@@ -45,7 +45,7 @@ export const products = [
 		texto:"Para piel seca",
 		precio: 1700,
 		category: "cremas",
-		cardImg: "./assets/products/crema-piel-seca.jpg",
+		cardImg: require ("../assets/Products/crema-piel-seca.jpg"),
 	},
 	{
 		id: 7,
@@ -53,7 +53,7 @@ export const products = [
 		texto:"Para piel mixta",
 		precio: 1700,
 		category: "cremas",
-		cardImg: "./assets/products/crema-piel-grasa.jpg",
+		cardImg: require ("../assets/Products/crema-piel-grasa.jpg"),
 	},
     {
 		id: 8,
@@ -61,7 +61,7 @@ export const products = [
 		texto:"Con Q10",
 		precio: 750,
 		category: "cremas",
-		cardImg: "./assets/products/contorno-de-ojos.jpg",
+		cardImg: require ("../assets/Products/contorno-de-ojos.jpg"),
 	},
     {
 		id: 9,
@@ -69,7 +69,7 @@ export const products = [
 		texto:"Antioxidante",
 		precio: 900,
 		category: "serums",
-		cardImg: "./assets/products/serum-antioxidante.jpg",
+		cardImg: require ("../assets/Products/serum-antioxidante.jpg"),
 	},
     {
 		id: 10,
@@ -77,7 +77,7 @@ export const products = [
 		texto:"Con vitamina E",
 		precio: 900,
 		category: "serums",
-		cardImg: "./assets/products/serum-con-vit.jpg",
+		cardImg: require ("../assets/Products/serum-con-vit.jpg"),
 	},
     {
 		id: 11,
@@ -85,7 +85,7 @@ export const products = [
 		texto:"Con ácido hialuronico",
 		precio: 900,
 		category: "serums",
-		cardImg: "./assets/products/serum-acido-hialu.jpg",
+		cardImg: require ("../assets/Products/serum-acido-hialu.jpg"),
 	},
     {
 		id: 12,
@@ -93,7 +93,7 @@ export const products = [
 		texto:"Frutal",
 		precio: 599,
 		category: "balsamos",
-		cardImg: "./assets/products/balm-frutal.jpg",
+		cardImg: require ("../assets/Products/balm-frutal.jpg"),
 	},
     {
 		id: 13,
@@ -101,7 +101,7 @@ export const products = [
 		texto:"Neutro",
 		precio: 599,
 		category: "balsamos",
-		cardImg: "./assets/products/balm-none.jpg",
+		cardImg: require ("../assets/Products/balm-none.jpg"),
 	},
     {
 		id: 14,
@@ -109,7 +109,7 @@ export const products = [
 		texto:"Coco",
 		precio: 599,
 		category: "balsamos",
-		cardImg: "./assets/products/balm-coco.jpg",
+		cardImg: require ("../assets/Products/balm-coco.jpg"),
 	},
     {
 		id: 15,
@@ -117,7 +117,7 @@ export const products = [
 		texto:"Cherry",
 		precio: 599,
 		category: "balsamos",
-		cardImg: "./assets/products/balm-cherry.jpg",
+		cardImg: require ("../assets/Products/balm-cherry.jpg"),
 	},
     {
 		id: 16,
@@ -125,7 +125,7 @@ export const products = [
 		texto:"",
 		precio: 2990,
 		category: "cremas",
-		cardImg: "./assets/products/protector-solar.png",
+		cardImg: require ("../assets/Products/protector-solar.png"),
 	},
     {
 		id: 17,
@@ -133,7 +133,7 @@ export const products = [
 		texto:"Limpieza profunda",
 		precio: 1800,
 		category: "limpieza",
-		cardImg: "./assets/products/espuma-limpieza.jpg",
+		cardImg: require ("../assets/Products/espuma-limpieza.jpg"),
 	},
     {
 		id: 18,
@@ -141,7 +141,7 @@ export const products = [
 		texto:"Para pieles mixtas",
 		precio: 1500,
 		category: "limpieza",
-		cardImg: "./assets/products/tonico.jpg",
+		cardImg: require ("../assets/Products/tonico.jpg"),
 	},
     {
 		id: 19,
@@ -149,7 +149,7 @@ export const products = [
 		texto:"",
 		precio: 1200,
 		category: "limpieza",
-		cardImg: "./assets/products/agua-micelar.png",
+		cardImg: require ("../assets/Products/agua-micelar.png"),
 	},
     {
 		id: 20,
@@ -157,7 +157,7 @@ export const products = [
 		texto:"",
 		precio: 600,
 		category: "limpieza",
-		cardImg: "./assets/products/esponja.png",
+		cardImg: require ("../assets/Products/esponja.png"),
 	},
     {
 		id: 21,
@@ -165,7 +165,7 @@ export const products = [
 		texto:"",
 		precio: 870,
 		category: "limpieza",
-		cardImg: "./assets/products/espatula.jpg",
+		cardImg: require ("../assets/Products/espatula.jpg"),
 	},
     {
 		id: 22,
@@ -173,7 +173,7 @@ export const products = [
 		texto:"De microfibra",
 		precio: 600,
 		category: "limpieza",
-		cardImg: "./assets/products/toalla.jpg",
+		cardImg: require ("../assets/Products/toalla.jpg"),
 	},
     {
 		id: 23,
@@ -181,7 +181,7 @@ export const products = [
 		texto:"Para piel seca",
 		precio: 1500,
 		category: "limpieza",
-		cardImg: "./assets/products/tonico-piel-seca.png",
+		cardImg: require ("../assets/Products/tonico-piel-seca.png"),
 	},
 	{
 		id: 24,
@@ -189,7 +189,7 @@ export const products = [
 		texto:"",
 		precio: 1500,
 		category: "limpieza",
-		cardImg: "./assets/products/neceser.png",
+		cardImg: require ("../assets/Products/neceser.png"),
 	},
 ];
 

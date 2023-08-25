@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import SectionProducts from "./components/SectionProducts/SectionProducts";
 import Categories from "./components/Categories/Categories";
 import Products from "./components/Products/Products";
+import Review from "./components/ReviewSection/Review";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <SectionProducts/>
       <Categories/>
       <Products/>
+      <Review/>
     </Layout>
     </>
   );

@@ -5,6 +5,7 @@ export const ProductContainer = styles.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 `
 
 export const ProductsCard = styles.div`
